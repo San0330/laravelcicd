@@ -37,6 +37,9 @@
                         <li class="nav-item">
                             <a class="nav-link" href="{{ route('posts.index') }}"><strong>Posts</strong></a>
                         </li>
+                         <li class="nav-item">
+                            <a class="nav-link" href="{{ route('about-us') }}"><strong>About Us</strong></a>
+                        </li>
                     </ul>
 
                     <!-- Right Side Of Navbar -->
