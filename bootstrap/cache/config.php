@@ -10,7 +10,7 @@
     'locale' => 'en',
     'fallback_locale' => 'en',
     'faker_locale' => 'en_US',
-    'key' => 'base64:BBHoaIPuyQ697BhldbHj/crPr2IqEvzG+2WL7NNqdww=',
+    'key' => 'base64:Px7QZxviAmXlvLhJqGTmicI+MlbaX2QvvxQusNJBAdM=',
     'cipher' => 'AES-256-CBC',
     'providers' => 
     array (
@@ -177,7 +177,7 @@
       'file' => 
       array (
         'driver' => 'file',
-        'path' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/framework/cache/data',
+        'path' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/framework/cache/data',
       ),
       'memcached' => 
       array (
@@ -254,7 +254,7 @@
       array (
         'driver' => 'sqlite',
         'url' => NULL,
-        'database' => 'laravel',
+        'database' => 'forum',
         'prefix' => '',
         'foreign_key_constraints' => true,
       ),
@@ -264,7 +264,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'laravel',
+        'database' => 'forum',
         'username' => 'santosh',
         'password' => 'password',
         'unix_socket' => '',
@@ -284,7 +284,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'laravel',
+        'database' => 'forum',
         'username' => 'santosh',
         'password' => 'password',
         'charset' => 'utf8',
@@ -299,7 +299,7 @@
         'url' => NULL,
         'host' => '127.0.0.1',
         'port' => '3306',
-        'database' => 'laravel',
+        'database' => 'forum',
         'username' => 'santosh',
         'password' => 'password',
         'charset' => 'utf8',
@@ -343,12 +343,12 @@
       'local' => 
       array (
         'driver' => 'local',
-        'root' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/app',
+        'root' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/app',
       ),
       'public' => 
       array (
         'driver' => 'local',
-        'root' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/app/public',
+        'root' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/app/public',
         'url' => 'http://localhost/storage',
         'visibility' => 'public',
       ),
@@ -364,7 +364,7 @@
     ),
     'links' => 
     array (
-      '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/public/storage' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/app/public',
+      '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/public/storage' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/app/public',
     ),
   ),
   'hashing' => 
@@ -398,13 +398,13 @@
       'single' => 
       array (
         'driver' => 'single',
-        'path' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/logs/laravel.log',
+        'path' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/logs/laravel.log',
         'level' => 'debug',
       ),
       'daily' => 
       array (
         'driver' => 'daily',
-        'path' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/logs/laravel.log',
+        'path' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/logs/laravel.log',
         'level' => 'debug',
         'days' => 14,
       ),
@@ -454,7 +454,7 @@
       ),
       'emergency' => 
       array (
-        'path' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/logs/laravel.log',
+        'path' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/logs/laravel.log',
       ),
     ),
   ),
@@ -510,7 +510,7 @@
       'theme' => 'default',
       'paths' => 
       array (
-        0 => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/resources/views/vendor/mail',
+        0 => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/resources/views/vendor/mail',
       ),
     ),
   ),
@@ -589,7 +589,7 @@
     'lifetime' => '120',
     'expire_on_close' => false,
     'encrypt' => false,
-    'files' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/framework/sessions',
+    'files' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/framework/sessions',
     'connection' => NULL,
     'table' => 'sessions',
     'store' => NULL,
@@ -622,9 +622,9 @@
   array (
     'paths' => 
     array (
-      0 => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/resources/views',
+      0 => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/resources/views',
     ),
-    'compiled' => '/home/santosh/Downloads/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/storage/framework/views',
+    'compiled' => '/home/santosh/Videos/[ FreeCourseWeb.com ] Udemy - DevOps Project - CICD with Git GitLab Jenkins and Laravel/~Get Your Course Here !/2. Dev environment setup/project/storage/framework/views',
   ),
   'flare' => 
   array (
