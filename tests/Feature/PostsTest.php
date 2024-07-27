@@ -20,22 +20,22 @@ class PostsTest extends TestCase
         $response->assertSee('The first post');
     }
 
-    // public function test_users_can_see_a_single_post()
-    // {
-    //     factory(Post::class)->create([
-    //         'title' => 'The first thread',
-    //         'id' => 1,
-    //     ]);
+    public function test_users_can_see_a_single_post()
+    {
+        factory(Post::class)->create([
+            'title' => 'The first thread',
+            'id' => 1,
+        ]);
 
-    //     $response = $this->get('/posts/the-first-thread');
+        $response = $this->get('/posts/1');
 
-    //     $response->assertSee('The first post');
-    // }
+        $response->assertSee('The first thread');
+    }
 
-    // public function test_users_cannot_create_a_thread_when_not_logged_in()
-    // {
-    //     $response = $this->get('/posts/create');
+    public function test_users_cannot_create_a_thread_when_not_logged_in()
+    {
+        $response = $this->get('/posts/create');
 
-    //     $response->assertSee('login');
-    // }
+        $response->assertSee('login');
+    }
 }
