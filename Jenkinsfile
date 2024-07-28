@@ -15,9 +15,33 @@ pipeline {
                 sh './vendor/bin/phpunit'
             }
         }
+
+        // stage('Deploy to Staging') {
+        //     steps {
+        //         sh 'ssh server@192.168.56.102 "cd /var/www/html/forum; \
+        //             git pull origin master; \
+        //             composer install --no-interaction; \
+        //             php artisan migrate --force; \
+        //             php artisan cache:clear; \
+        //             php artisan config:cache "'
+        //     }
+        // }
+
+
         stage('Deploy') {
+
+            input {
+                message "Shall we go ahead?"
+                ok "Yes Please."
+            }
+
             steps {
-                echo "deploying"
+                sh 'ssh server@192.168.56.102 "cd /var/www/html/forum; \
+                    git pull origin main; \
+                    composer install --no-interaction --no-dev; \
+                    php artisan migrate --force; \
+                    php artisan cache:clear; \
+                    php artisan config:cache "'
             }
         }
     }
