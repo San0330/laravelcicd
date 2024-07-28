@@ -18,7 +18,7 @@ pipeline {
 
         // stage('Deploy to Staging') {
         //     steps {
-        //         sh 'ssh server@192.168.56.102 "cd /var/www/html/forum; \
+        //         sh 'ssh server@192.168.56.102 "cd /var/www/html/laravelcicd; \
         //             git pull origin master; \
         //             composer install --no-interaction; \
         //             php artisan migrate --force; \
@@ -36,7 +36,7 @@ pipeline {
             }
 
             steps {
-                sh 'ssh server@192.168.56.102 "cd /var/www/html/forum; \
+                sh 'ssh server@192.168.56.102 "cd /var/www/html/laravelcicd; \
                     git pull origin main; \
                     composer install --no-interaction --no-dev; \
                     php artisan migrate --force; \
